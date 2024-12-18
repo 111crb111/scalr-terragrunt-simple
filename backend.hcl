@@ -7,7 +7,7 @@ generate "backend" {
 terraform {
   backend "s3" {
     bucket         = "crb-s3-tpqwk59h"
-    key            = "global/crb-s3-tpqwk59h/terraform.tfstate"
+    key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
     dynamodb_table = "crb-s3-locks"
