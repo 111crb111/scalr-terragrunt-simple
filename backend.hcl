@@ -6,7 +6,7 @@ generate "backend" {
   contents = <<EOF
 terraform {
   backend "s3" {
-    bucket         = "crb-s3-zolxzunm"
+    bucket         = "crb-s3-1hit784n"
     key            = "${path_relative_to_include()}/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
