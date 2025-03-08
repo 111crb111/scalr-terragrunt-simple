@@ -46,3 +46,8 @@ output "resource_output" {
     resource_id = var.resource_id
   }
 }
+
+output "test_output_1" {
+  value = "some output value 1"
+  description = "Test description 1"
+}
