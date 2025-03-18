@@ -17,11 +17,11 @@ variable "dependency_info" {
   default     = null
 }
 
-variable "qqq_sensetive_test" {
+variable "qqq_sensitive_test" {
   description = "A unique identifier for the resource"
   type        = string
-  default     = "some sensetive value"
-  sensetive = true
+  default     = "some sensitive value"
+  sensitive = true
 }
 
 resource "null_resource" "random_sleep_example_shuf" {
