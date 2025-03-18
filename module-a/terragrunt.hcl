@@ -9,4 +9,5 @@ terraform {
 inputs = {
   module_name = "module-a"
   resource_id = "resource-001"
+  sensetive_test = "module-a sensetive test"
 }
