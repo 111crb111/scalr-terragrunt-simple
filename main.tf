@@ -21,7 +21,6 @@ variable "sensetive_test" {
   description = "A unique identifier for the resource"
   type        = string
   default     = "some sensetive value"
-  sensetive   = true
 }
 
 resource "null_resource" "random_sleep_example_shuf" {
