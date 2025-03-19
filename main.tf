@@ -24,8 +24,8 @@ variable "qqq_sensitive_test" {
   sensitive = true
 }
 
-variable "configuration" {
-  description = "configuration\": {"
+variable "resource_changes" {
+  description = "resource_changes\": {"
   type        = string
   default     = "valueee"
 }
