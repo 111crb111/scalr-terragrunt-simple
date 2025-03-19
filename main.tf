@@ -18,10 +18,16 @@ variable "dependency_info" {
 }
 
 variable "qqq_sensitive_test" {
-  description = "A unique identifier for the resource"
+  description = "A variable for test sensetive values"
   type        = string
   default     = "some sensitive value"
   sensitive = true
+}
+
+variable "configuration" {
+  description = "configuration\": {"
+  type        = string
+  default     = "valueee"
 }
 
 resource "null_resource" "random_sleep_example_shuf" {
