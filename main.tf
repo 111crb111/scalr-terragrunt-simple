@@ -24,8 +24,8 @@ variable "qqq_sensitive_test" {
   sensitive = true
 }
 
-variable "resource_changes" {
-  description = "resource_changes\": {"
+variable "output_changes" {
+  description = "output_changes\": {"
   type        = string
   default     = "valueee"
 }
